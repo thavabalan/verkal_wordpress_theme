@@ -1,0 +1,147 @@
+/*
+Theme Name: Verkal Cutom Theme
+Theme URI: https://verkal.com
+Author: the Verkal Team
+Author URI: https://verkal.com
+Description:Archive of Tamil Eelam
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+a{
+    color: #000000;
+}
+.header-note{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Baloo Thambi', cursive;
+}
+
+.nav-text{
+    font-family: 'Baloo Thambi', cursive;
+}
+.body{
+    margin: 10px;
+}
+.history{
+    
+}
+
+.history-head{
+    background-color: gray;
+    color: yellow;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 5px;
+}
+.history-body{
+   
+    font-size: 15px;
+    font-weight: 900;
+    padding: 5px;
+    border: 2px solid red;
+}
+
+.history-head::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 32px solid grey;
+    border-right: 32px solid white;
+    width: 0;
+}
+.rem{
+    border: 2px solid rgb(83, 2, 2);
+}
+
+
+.rem-img{
+    max-width: 45%;
+}
+
+.side2{
+    margin-left: 15px;
+}
+.side3{
+    margin-left: 25px;
+}
+.body2{
+    margin: 10px;
+}
+.tamil-eelam{
+}
+.eelam-header{
+    color:yellow;
+    background-color: #000000;
+    font-family: 'Baloo Thambi', cursive;
+    padding: 5px;
+    border: 2px solid red;
+}
+.eelam-body{
+    border: 2px solid yellow;
+}
+.big{
+    
+}
+.small-rem{
+
+}
+h3.big-title{
+    font-size: 15px;
+    font-family: 'Baloo Thambi', cursive;
+}
+h3.small-rem{
+    font-size: 12px;
+}
+
+.small{
+    border: 2px solid  #740000;
+}
+.small-head{
+    font-size: 12px;
+}
+
+.readmore{
+    background-color: #000000;
+}
+
+.readmore-box{
+    border: 1px solid white;
+    color: white;
+    padding:2px;
+}
+p.read{
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+}
+
+
+.single-title h3{
+    font-size: 15px;
+    padding: 15px;
+    font-family: 'Baloo Thambi';
+}
+.single-content p{
+text-align: justify;
+padding-left: 15px;    
+}
+.footer{
+    align-items: center;
+}
+.footer-text{
+    text-align: center;
+}
+
+.archive-img{
+    padding-left: 30px;
+}
+.archive-title{
+    font-size: 20px;
+}

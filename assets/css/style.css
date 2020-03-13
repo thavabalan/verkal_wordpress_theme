@@ -1,0 +1,128 @@
+.header-note{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Baloo Thambi', cursive;
+}
+
+.nav-text{
+    font-family: 'Baloo Thambi', cursive;
+}
+.body{
+    margin: 10px;
+}
+.history{
+    
+}
+
+.history-head{
+    background-color: gray;
+    color: yellow;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 5px;
+}
+.history-body{
+   
+    font-size: 15px;
+    font-weight: 900;
+    padding: 5px;
+    border: 2px solid red;
+}
+
+.history-head::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 32px solid grey;
+    border-right: 32px solid white;
+    width: 0;
+}
+.rem{
+    border: 2px solid rgb(83, 2, 2);
+}
+
+
+.rem-img{
+    max-width: 45%;
+}
+
+.side2{
+    margin-left: 15px;
+}
+.side3{
+    margin-left: 25px;
+}
+.body2{
+    margin: 10px;
+}
+.tamil-eelam{
+}
+.eelam-header{
+    color:yellow;
+    background-color: #000000;
+    font-family: 'Baloo Thambi', cursive;
+    padding: 5px;
+    border: 2px solid red;
+}
+.eelam-body{
+    border: 2px solid yellow;
+}
+.big{
+    
+}
+.small-rem{
+
+}
+h3.big-title{
+    font-size: 15px;
+    font-family: 'Baloo Thambi', cursive;
+}
+h3.small-rem{
+    font-size: 12px;
+}
+
+.small{
+    border: 2px solid  #740000;
+}
+.small-head{
+    font-size: 12px;
+}
+
+.readmore{
+    background-color: #000000;
+}
+
+.readmore-box{
+    border: 1px solid white;
+    color: white;
+    padding:2px;
+}
+p.read{
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.single-title h3{
+    font-size: 15px;
+    padding: 15px;
+    font-family: 'Baloo Thambi';
+}
+.single-content p{
+text-align: justify;
+padding-left: 15px;    
+}
+.footer{
+    align-items: center;
+}
+.footer-text{
+    text-align: center;
+}
+
+.archive-img{
+    padding-left: 30px;
+}
+.archive-title{
+    font-size: 20px;
+}
